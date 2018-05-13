@@ -1,4 +1,4 @@
-// •œK.cpp : ƒAƒvƒŠƒP[ƒVƒ‡ƒ“‚ÌƒGƒ“ƒgƒŠ ƒ|ƒCƒ“ƒg‚ð’è‹`‚µ‚Ü‚·B
+// ï¿½ï¿½ï¿½K.cpp : ï¿½Aï¿½vï¿½ï¿½ï¿½Pï¿½[ï¿½Vï¿½ï¿½ï¿½ï¿½ï¿½ÌƒGï¿½ï¿½ï¿½gï¿½ï¿½ ï¿½|ï¿½Cï¿½ï¿½ï¿½gï¿½ï¿½ï¿½`ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B
 //
 #include "stdafx.h"
 #define  _CRT_SECURE_NO_WARNINGS
@@ -18,7 +18,7 @@ int main(void)
 	for (int i = 0; str[i] != '\0';++i) {
 		Cnt++;
 	}
-	cout << "•¶Žš”@= "<< Cnt <<"\n";
+	cout << "ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½@= "<< Cnt <<"\n";
 
 	for (int i = 0; str[i] != '\0'; ++i) {
 		if (str[i] == 'z')
@@ -26,7 +26,9 @@ int main(void)
 			Cnt2++;
 		}
 	}
-	//cout << "z •¶Žš”@= " << Cnt2 << "\n";
+
+	// Keng change this
+	cout << "z ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½@= " << Cnt2 << "\n";
 	system("pause");
 
 }
