@@ -9,6 +9,10 @@ using namespace std;
 
 int main(void)
 {
+	//testttttttttttttttttttttttt
+	//testttttttttttttttttttttttt
+	//testttttttttttttttttttttttt
+
 	char str[100];
 
 	cin >> str;
