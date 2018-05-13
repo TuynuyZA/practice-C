@@ -9,10 +9,6 @@ using namespace std;
 
 int main(void)
 {
-	//testttttttttttttttttttttttt
-	//testttttttttttttttttttttttt
-	//testttttttttttttttttttttttt
-
 	char str[100];
 
 	cin >> str;
@@ -30,7 +26,7 @@ int main(void)
 			Cnt2++;
 		}
 	}
-
+	//cout << "z •¶š”@= " << Cnt2 << "\n";
 	system("pause");
 
 }
