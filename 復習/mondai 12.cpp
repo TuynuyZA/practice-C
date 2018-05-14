@@ -1,5 +1,5 @@
 // 復習.cpp : アプリケーションのエントリ ポイントを定義します。
-//
+
 #include "stdafx.h"
 #define  _CRT_SECURE_NO_WARNINGS
 #include "stdlib.h"
@@ -14,14 +14,21 @@ int main(void)
 	float Height;
 	float area;
 
-		cout << "上底 ：";
+		/*cout << "上底 ：";
 		cin >> up;
 		cout << "下底 ：";
 		cin >> down;
 		cout << "高さ ：";
-		cin >> Height;
+		cin >> Height;*/
 
-		area = 0.5 * Height * (up + down);
+	printf("上底 ：");
+	scanf_s("%f", &up);
+	printf("下底 ：");
+	scanf_s("%f", &down);
+	printf("高さ ：");
+	scanf_s("%f", &Height);
+
+		area = float(0.5 * Height * (up + down));
 
 		printf("上底 %.1f 下底 %.1f 高さ　%.1f の台形の面積は %.1f です\n", up, down, Height, area);
 
