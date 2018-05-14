@@ -26,7 +26,7 @@ int main(void)
 			Cnt2++;
 		}
 	}
-	//cout << "z •¶Žš”@= " << Cnt2 << "\n";
+	cout << "z •¶Žš”@= " << Cnt2 << "\n";
 	system("pause");
 
 }
